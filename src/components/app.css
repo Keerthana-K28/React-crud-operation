@@ -1,0 +1,46 @@
+.sticky-nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color:rgb(124, 244, 244);
+    padding: 25px; 
+    justify-content:space-between;
+  }
+  .list ul{
+    display: flex;
+    text-decoration: underline;
+    list-style-type: none;
+    margin-right: 100px;
+    
+  }
+  .list li{
+    margin-right: 10px;
+    font-weight: bolder;
+  }
+  button{
+    margin: 25px;
+    height:25px;
+    background-color:rgb(175, 175, 232)
+  }
+.input input{
+  display: block;
+  margin: 20px;
+}
+label{
+  color: red;
+  margin: 20px;
+}
+
+/* ReadTable.css */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+ 
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+} 
+
